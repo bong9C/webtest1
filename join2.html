@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+</head>
+<body topmargin="40" bottommargin="20">
+<div align="center">
+    <table width="90%" border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <td colspan="3" align="center"><strong>기본정보 입력</strong></td>
+      </tr>
+      <tr>
+        <td width="20%">아이디:</td>
+        <td><input type="text" name="userid" size="30"></td>
+        <td><input type="submit" value="중복확인" style="font-size: 14px;"></td>
+      </tr>
+      <tr>
+        <td>비밀번호:</td>
+        <td colspan="2"><input type="password" name="pwd" size="30"></td>
+      </tr>
+      <tr>
+        <td>비밀번호 확인:</td>
+        <td colspan="2"><input type="password" name="pwd" size="30"></td>
+      </tr>
+    </table>
+
+    <br><br>
+
+    <table width="90%" border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <td colspan="3" align="center"><strong>개인정보 입력</strong></td>
+      </tr>
+      <tr>
+        <td>이름:</td>
+        <td colspan="2"><input type="text" name="kname" size="30"></td>
+      </tr>
+      <tr>
+        <td>이메일:</td>
+        <td colspan="2">
+          <input type='text' size="30">@
+          <select>
+            <option>선택하세요.</option>
+            <option>naver.com</option>
+            <option>gmail.com</option>
+            <option>kopo.ac.kr</option>
+          </select>
+          <input type="submit" value="이메일인증">
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><input type="checkbox" name="agree">이메일 수신 동의</td>
+      </tr>
+      <tr>
+        <td colspan = "3">❌수신거부 시 일부 서비스에 제한이 있을 수 있습니다.
+        비밀번호 초기화 메일 수신 등에 반드시 필요한 정보이므로 정확히 이메일 주소를 입력해주세요.</td>
+      </tr>
+      <tr>
+        <td>휴대폰 번호:</td>
+        <td colspan="2"><input type="number" name="num" size="30"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><input type="checkbox" name="agree">SNS 수신 동의</td>
+      </tr>
+      <tr>
+        <td colspan="3" align="right"><input type="submit" value="회원가입" style="font-size: 14px;"></td>
+      </tr>
+    </table>
+</div>
+</body>
+</html>
